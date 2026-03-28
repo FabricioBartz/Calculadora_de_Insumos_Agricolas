@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/Calculadora_de_Insumos_Agricolas/',
+  build: {
+    outDir: 'docs', 
+  }
 })
