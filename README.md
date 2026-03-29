@@ -45,20 +45,15 @@ Antes de começar, você precisará ter instalado em sua máquina o **Node.js** 
 
 1. Clone este repositório:
     ```bash
-    git clone [https://github.com/FabricioBartz/Teste_Tecnico-Calculadora_de_Insumos_Agricolas.git](https://github.com/FabricioBartz/Teste_Tecnico-Calculadora_de_Insumos_Agricolas.git)
+    git clone [https://github.com/FabricioBartz/Calculadora_de_Insumos_Agricolas.git](https://github.com/FabricioBartz/Calculadora_de_Insumos_Agricolas.git)
     ```
 
-2. Entre na pasta do projeto:
-    ```bash
-    cd Teste_Tecnico-Calculadora_de_Insumos_Agricolas
-    ```
-
-3. Instale as dependências:
+2. Instale as dependências:
     ```bash
     npm install
     ```
 
-4. Inicie o servidor de desenvolvimento:
+3. Inicie o servidor de desenvolvimento:
     ```bash
     npm run dev
     ```
