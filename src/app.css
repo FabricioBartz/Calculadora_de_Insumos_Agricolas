@@ -40,22 +40,21 @@
 
 
 @media (max-width: 768px) {
-  /* 1. Trava a raiz do React para não crescer além da tela */
-  html, body, #root {
+  /* Impede que a página inteira balance (elástico do navegador) */
+  html, body, #root, .app-layout {
     height: 100%;
-    overflow: hidden;
-    position: fixed; 
+    overflow: hidden; 
+    position: fixed;
     width: 100%;
   }
 
-  /* 2. Ajusta os containers do seu Layout Principal */
-  .app-layout, 
-  .main-container, 
-  .content-area {
-    height: 100% !important;
-    max-height: 100dvh !important;
-    overflow: hidden !important;
+  .main-container {
+    flex: 1;
     display: flex;
     flex-direction: column;
+    /* Se o conteúdo interno for menor que a tela, fica fixo. */
+    /* Se os cards empilharem e sobrarem, ele libera o scroll. */
+    overflow-y: auto; 
+    -webkit-overflow-scrolling: touch; /* Scroll suave no Android/iOS */
   }
 }

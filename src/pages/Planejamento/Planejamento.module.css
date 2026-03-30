@@ -54,12 +54,13 @@
   .containerPrincipal {
     box-sizing: border-box;
     padding: 20px;       /* Reduz o padding para telas menores */ 
-    height: 100vh;      /* Ocupa a altura da tela */
-    height: 100dvh;     /* Altura dinâmica para navegadores mobile */
-    overflow: hidden;   /* PROÍBE a rolagem na página inteira */
+    height: auto;      /* Ocupa a altura da tela */
+    min-height: 100%;     /* Altura dinâmica para navegadores mobile */
+    overflow: visible !important;   /* PROÍBE a rolagem na página inteira */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    
     
   }
   .contentWrapper {
@@ -67,7 +68,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow-y: auto;
+    overflow: visible;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 40px;
   }
 
   .cardCalculadora, .containerResultado {
