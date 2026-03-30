@@ -19,7 +19,11 @@ function PlanejamentoSafra() {
   // Função para calcular os insumos
   const calcularSafra = (e) => {
     e.preventDefault(); // Impede a página de recarregar
-
+    // Isso tira o foco do input atual e fecha o teclado mobile 
+    if (document.activeElement) {
+      document.activeElement.blur();
+    }
+    
     let novosErros = { area: "", cultura: "" };
     let temErro = false;
 
