@@ -1,6 +1,6 @@
 # 🌾 AgroHub - Calculadora de Insumos Agrícolas
 
-> **Status do Projeto:** 🚀 Concluído e Otimizado para Mobile.
+O **AgroHub** é uma ferramenta desenvolvida para auxiliar agrônomos no campo a calcularem, de forma rápida e precisa, a quantidade de sementes necessária para o plantio, baseando-se na área total (em hectares) e na cultura escolhida.
 
 **🔗 [Acesse a aplicação aqui](https://fabriciobartz.github.io/Calculadora_de_Insumos_Agricolas/)**
 
