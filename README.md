@@ -1,6 +1,6 @@
 # 🌾 AgroHub - Calculadora de Insumos Agrícolas
 
-O **AgroHub** é um ecossistema digital em desenvolvimento projetado para centralizar soluções tecnológicas para o agronegócio. Atualmente, a plataforma conta com o módulo Calculadora de Insumos, uma ferramenta que permite a agrônomos calcular, com agilidade, a demanda de sementes por hectare conforme a cultura selecionada.
+O **AgroHub** é um ecossistema digital em desenvolvimento projetado para centralizar soluções tecnológicas para o agronegócio. Atualmente, a plataforma conta com o módulo Calculadora de Insumos (Planejamento Safra), uma ferramenta que permite a agrônomos calcular, com agilidade, a demanda de sementes por hectare conforme a cultura selecionada.
 
 **🔗 [Acesse a aplicação aqui](https://fabriciobartz.github.io/Calculadora_de_Insumos_Agricolas/)**
 
