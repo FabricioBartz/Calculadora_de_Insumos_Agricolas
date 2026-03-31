@@ -11,14 +11,14 @@ O **AgroHub** é um ecossistema digital em desenvolvimento projetado para centra
 ### Experiência Desktop
 Abaixo, a demonstração do menu lateral (Sidebar) aberto e colapsado na versão desktop.
 
-| Sidebar Aberta | Sidebar Colapsada |
+| Sidebar Aberta (Desktop) | Sidebar Colapsada (Desktop) |
 | :---: | :---: |
 | <img src="./screenshots/tela-desktop.png" width="450px" /> | <img src="./screenshots/tela-desktop-fechada.png" width="450px" /> |
 
 ### Experiência Mobile 
 Abaixo, a demonstração do menu lateral (Sidebar) aberto e colapsado na versão mobile.
 
-| Mobile (Input) | Mobile (Resultado Calculado) |
+| Sidebar Aberta (Mobile) | Sidebar Colapsada (Mobile) |
 | :---: | :---: |
 | <img src="./screenshots/tela-mobile-aberta.png" width="220px" /> | <img src="./screenshots/tela-mobile-fechada.png" width="220px" /> |
 
